@@ -38,19 +38,19 @@ Loading the Dataset: The Wine dataset is loaded using the load_wine() function f
 
 ### Basic Data Exploration:
 
-df.head(): Display the first few rows of the dataset.
-
-df.tail(): Display the last few rows.
-
-df.shape: Shows the dimensions of the dataset.
-
-df.describe(): Provides summary statistics for numerical columns.
-
-df.info(): Gives information about column data types and missing values.
-
-df.columns: Lists all the column names.
-
-df.duplicated().sum(): Checks for duplicated rows.
+    df.head(): Display the first few rows of the dataset.
+    
+    df.tail(): Display the last few rows.
+    
+    df.shape: Shows the dimensions of the dataset.
+    
+    df.describe(): Provides summary statistics for numerical columns.
+    
+    df.info(): Gives information about column data types and missing values.
+    
+    df.columns: Lists all the column names.
+    
+    df.duplicated().sum(): Checks for duplicated rows.
 
 Column Renaming: The column od280/od315_of_diluted_wines is renamed to protein_concentration for better readability.
 
